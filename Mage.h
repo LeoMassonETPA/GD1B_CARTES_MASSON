@@ -1,1 +1,2 @@
-Mage.h
+#include <iostream>
+#include <string>
