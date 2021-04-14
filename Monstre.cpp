@@ -2,29 +2,17 @@
 #include <string>
 #include "Monstre.h"
 
- /*private:
 
-        char _nom;
-        int _attaque;
-        int _pdV;
-        bool _epuise;
-
-
-    public:
-
-        void AtqMonstre();
-        void MortMonstre();
-        void AfficheInfo(); */
 
 void Monstre::AtqMonstre(){
 
 }
 
 void Monstre::MortMonstre(){
-
+    if (int _pdV <= 0){bool _mort = true};
 }
 
 void Monstre::AfficheInfo(){
-
+    std::cout << "Le monstre", _nom, "possède", _pdV, "points de vie et ", _attaque, "points d'attaque" << std::endl;
 }
 

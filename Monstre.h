@@ -9,7 +9,7 @@ class Monstre{
         int _attaque;
         int _pdV;
         bool _epuise;
-
+        bool _mort;
 
     public:
 
