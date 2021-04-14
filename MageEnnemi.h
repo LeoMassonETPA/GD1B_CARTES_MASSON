@@ -8,10 +8,12 @@ class MageEnnemi{
         char _nomEnnemi;
         int _pdVEnnemi;
         int _zoneDeJeuEnnemi;
+        int _manaEnnemi;
 
 
     public:
 
+        void DebutTourENnemi();
         void InvocMonstreEnnemi();
         void AtqMonstreInvoEnnemi();
         void AtqInvocateurEnnemi();

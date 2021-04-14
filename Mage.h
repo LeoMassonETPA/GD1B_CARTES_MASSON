@@ -8,10 +8,12 @@ class Mage{
         char _nom;
         int _pdV;
         int _zoneDeJeu;
+        int _mana
 
 
     public:
 
+        void DebutTour();
         void InvocMonstre();
         void AtqMonstreInvo();
         void AtqInvocateur();
