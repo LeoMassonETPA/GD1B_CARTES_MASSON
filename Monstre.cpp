@@ -1,11 +1,12 @@
 #include <iostream>
 #include <string>
 #include "Monstre.h"
-
+#include "MonstreEnnemi.h"
 
 
 void Monstre::AtqMonstre(){
-
+    _pdV = _pdV - _attaqueEnnemi;
+    _pdVEnnemi = _pdVEnnemi - _attaque;
 }
 
 void Monstre::MortMonstre(){
