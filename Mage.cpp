@@ -11,11 +11,11 @@ void Mage::AtqMonstreInvo(){
     
 };
 void Mage::AtqInvocateur(){
-    _pdv
+    _pdVEnnemi = pdVEnnemi - _atqMonstre
 };
-void Mage::InvocMonstre(){
+void Mage::AfficheInfoMage(){
 
 };
 void Mage::DebutTour(){
-
+    _mana = 
 };
